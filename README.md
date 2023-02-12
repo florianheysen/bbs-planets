@@ -7,6 +7,14 @@ En se basant sur l'[API](https://api.le-systeme-solaire.net/) :
 - Avoir la possibilité de filtrer par un champ texte sur le nom de la planète.
 - Au clique, faire apparaître une page détails (avec une route) pour afficher les détails de la planète.
 
+### Comment lancer le projet ?
+
+1. Installer les dépendences : ``npm install`` ou ``yarn``
+2. Lancer le serveur de développement ``npm run dev`` ou ``yarn dev`` 
+3. Lancer Storybook ``npm run storybook`` ou ``yarn storybook`` 
+
+
+
 ### Tech-Stack utilisée
 
 | Technologie | Utilisation |
