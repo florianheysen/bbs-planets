@@ -5,20 +5,22 @@
 En se basant sur l'[API](https://api.le-systeme-solaire.net/) :
 - Afficher la liste des planètes du système solaire (image, nom).
 - Avoir la possibilité de filtrer par un champ texte sur le nom de la planète.
-- Au clique, faire apparaître une page détails (avec une route) pour afficher les détails de la planète. Libre à toi d’afficher les détails que tu veux.
+- Au clique, faire apparaître une page détails (avec une route) pour afficher les détails de la planète.
 
 ### Tech-Stack utilisée
 
-- [Vite](https://vitejs.dev/)
-- TypeScript
-- React.JS
-- Material UI
-- Storybook
-- Axios
-- [Zustand](https://zustand-demo.pmnd.rs/)
+| Technologie | Utilisation |
+|---|---|
+| [Vite](https://vitejs.dev/) | Améliore les temps de chargements en enivronement de dev |
+| TypeScript | Ajoute une couche Type Safety à React.JS |
+| Matarial UI | Fait gagner sur temps sur le développement UI |
+| Storybook | Permet de créer un design system des composants |
+| Axios | Simplifie les requêtes avancées aux APIs |
+| [React Query](https://tanstack.com/query/latest/) | Simplifie la gestion et mes en cache les donnée appellées via API |
+| [Zustand](https://zustand-demo.pmnd.rs/) | Permet de gérer des états globalement dans toute l'application |
 
 
-### Pourquoi avoir choisi Zustand plutôt que Redux ?
+#### Pourquoi avoir choisi Zustand plutôt que Redux ?
 
 | Redux | Zustand |
 |---|---|
